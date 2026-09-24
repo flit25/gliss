@@ -1,7 +1,31 @@
 # Gliss
 
-A native macOS 27+ trackpad and mouse enhancement app.
+Gliss 是一款面向 macOS 27 及以上版本的原生触控板与鼠标增强工具。它将手势、触控区域、修饰键和动作组合起来，也允许为不同应用分别设置触控板和鼠标行为。
 
-Download installer DMGs from [Releases](https://github.com/flit25/gliss/releases). Sparkle update metadata is published through [GitHub Pages](https://flit25.github.io/gliss/appcast.xml).
+> 当前最新版本：[Gliss 0.6.4](https://github.com/flit25/gliss/releases/latest)。项目仍处于开发预览阶段，尚未完成 Developer ID 签名与 Apple 公证。
 
-The Sparkle private signing key is stored locally in the maintainer’s macOS Keychain and is not part of this repository.
+## 主要功能
+
+- **触控板手势**：支持 1–4 指轻点、点按及适用的滑动手势；可按中心、边缘、角落等区域绑定不同动作，并组合 ⌘、⌥、⇧、⌃ 修饰键。
+- **统一动作**：鼠标按键与触控板手势共用动作系统，支持点击、前进/后退、窗口与标签页操作、系统和媒体控制、自定义快捷键及打开应用。
+- **鼠标增强**：按键映射、独立于触控板的滚动方向和速度、连续平滑滚动。
+- **按应用配置**：在触控板和鼠标页面分别管理应用配置；未单独设置的应用沿用全局配置。
+- **原生设置界面**：支持中文和英文、跟随系统或手动选择浅色/深色外观，以及菜单栏和程序坞显示选项。
+
+Gliss 尽量保持 macOS 原生触控板滚动体验。输入适配器发生异常时，会停止拦截并优先恢复系统原始输入。
+
+## 下载与安装
+
+从 [GitHub Releases](https://github.com/flit25/gliss/releases/latest) 下载 `Gliss-<版本>.dmg`，打开后将 Gliss 拖入“应用程序”文件夹。首次使用时，需要按应用内提示授予“辅助功能”权限，手势和按键增强才能工作。
+
+当前安装包使用 Apple Development 证书签名，**不是经过 Apple 公证的正式发行包**。因此其他 Mac 上首次打开可能受到 macOS 安全策略限制；请了解这一限制后再安装。我们不会要求关闭系统安全保护。
+
+## 更新
+
+在 Gliss 的“通用”页面点击“检查更新…”。应用使用 [Sparkle](https://sparkle-project.org/) 检查 [更新清单](https://flit25.github.io/gliss/appcast.xml)，下载包通过 EdDSA 签名校验。已在本机验证 0.6.3 可检测、安装并重启至 0.6.4。
+
+## 开发与发布状态
+
+本公开仓库目前用于发布安装包和更新清单，**不包含完整 Gliss 源码**；GitHub 自动附带的 `Source code` 压缩包也不是 App 的源码。请使用 Release 中的 DMG 安装。
+
+正式面向更多用户分发前，仍需补齐 Developer ID 签名、Apple 公证及更广泛的硬件测试。Sparkle 私钥保存在维护者本机钥匙串中，不上传到 GitHub。
