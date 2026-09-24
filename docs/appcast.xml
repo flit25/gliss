@@ -3,6 +3,14 @@
     <channel>
         <title>Gliss</title>
         <item>
+            <title>0.6.4</title>
+            <pubDate>Thu, 24 Sep 2026 21:05:59 +0800</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>0.6.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/flit25/gliss/releases/download/v0.6.4/Gliss-0.6.4.dmg" length="2220728" type="application/octet-stream" sparkle:edSignature="R76aLqbSLnuKRQ9tjxSLdrLhMvseTSfbqtsfJ3WSvwNi49zNHh9zYlKHNKkzELtgrrIIjSsNCGssivrsNnxkDA=="/>
+        </item>
+        <item>
             <title>0.6.3</title>
             <pubDate>Thu, 24 Sep 2026 20:55:50 +0800</pubDate>
             <sparkle:version>23</sparkle:version>
