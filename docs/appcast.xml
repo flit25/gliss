@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Gliss</title>
+        <item>
+            <title>0.6.3</title>
+            <pubDate>Thu, 24 Sep 2026 20:55:50 +0800</pubDate>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>0.6.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/flit25/gliss/releases/download/v0.6.3/Gliss-0.6.3.dmg" length="2220730" type="application/octet-stream" sparkle:edSignature="23TaECTil8vSNBRdF5u3Qlr81HA3JBFv7nhIcABP499JVwuF1Xr3BgHFlHp+XCfN6X7I5R/axmCL2TNjmNC+Dw=="/>
+        </item>
+    </channel>
+</rss>
