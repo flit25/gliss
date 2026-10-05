@@ -3,6 +3,14 @@
     <channel>
         <title>Gliss</title>
         <item>
+            <title>0.7.8</title>
+            <pubDate>Mon, 05 Oct 2026 17:33:12 +0800</pubDate>
+            <sparkle:version>36</sparkle:version>
+            <sparkle:shortVersionString>0.7.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/flit25/gliss/releases/download/v0.7.8/Gliss-0.7.8.dmg" length="2367382" type="application/octet-stream" sparkle:edSignature="yGczXTyg1aUHCGeEo2wsDZ3lzLS2cF0JHrtFKP1WdKsOV+QYvcUCdnoZP/exbXb59wPbclasZYK3Qq73dMy1BQ=="/>
+        </item>
+        <item>
             <title>0.7.7</title>
             <pubDate>Mon, 05 Oct 2026 16:22:45 +0800</pubDate>
             <sparkle:version>35</sparkle:version>
